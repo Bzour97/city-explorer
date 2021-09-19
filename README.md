@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# City Explorer:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Author: Ahmad Al-Bzour
 
-## Available Scripts
+Version: 1.0 
+* Note : Increase version number patch/fix when you make extra commitments after the first submission
 
-In the project directory, you can run:
+### Overview
+The client wants a website to search for a location and show the map of this location and more info about it.
 
-### `npm start`
+### Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone this: git clone git@github.com:Bzour97/city-explorer.git
+2. Install the required packages: npm install or npm i
+3. Get the documentation's API endpoint
+4. Creating .env and placing your own key file
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Architecture
 
-### `npm test`
+1. locationIQ
+2. Axios
+3. Bootstrap
+4. CSS
+5. JS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Change Log
 
-### `npm run build`
+9:30 PM in 19-9-2021 — Any city map will be searched immediately.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Credit and Collaborations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Click Here](https://github.com/LTUC/amman-301d33)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-------------------------
 
-### `npm run eject`
+* Name of feature: APIs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Estimate of time needed to complete: 2 hours and half
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Start time: 8:00 PM
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Finish time: 9:30 PM
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Actual time needed to complete: 1 hour and half
