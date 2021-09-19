@@ -33,12 +33,12 @@ The client wants a website to search for a location and show the map of this loc
 
 -------------------------
 
-Name of feature: APIs
+* Name of feature: APIs
 
-Estimate of time needed to complete: 2 hours and half
+* Estimate of time needed to complete: 2 hours and half
 
-Start time: 8:00 PM
+* Start time: 8:00 PM
 
-Finish time: 9:30 PM
+* Finish time: 9:30 PM
 
-Actual time needed to complete: 1 hour and half
+* Actual time needed to complete: 1 hour and half
