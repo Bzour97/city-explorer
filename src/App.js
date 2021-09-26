@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Weather from './components/Weather';
+import Weather from './Components/Weather';
 
 class App extends React.Component {
 
@@ -42,10 +42,11 @@ class App extends React.Component {
 
     this.setState({
       locationResult: resultOfServer.data[0],
-      showLocInfo: true
+      showLocInfo: true,
+      weatherResult: resultOfServer.data
     })
   }
-
+//
 
   render() {
     return (
@@ -65,7 +66,7 @@ class App extends React.Component {
 
             <Card style={{ width: '35rem' }}>
 
-            {this.state.weatherResult.map((weather,x) => {
+            {this.state.weatherResult.weatherInfos.map((weather,x) => {
               return ( <Weather key = {x} infoWeather = {weather} /> )
               })}
 
@@ -75,9 +76,9 @@ class App extends React.Component {
                 {/* <ListGroupItem> {this.state.searchQuery} </ListGroupItem>
                 <ListGroupItem> {this.state.locationResult.lat} </ListGroupItem>
                 <ListGroupItem> {this.state.locationResult.lon} </ListGroupItem> */}
-                <ListGroupItem> <p style={{width: "17rem"}}> City Name : {this.state.searchQuery}</p> </ListGroupItem>
-                <ListGroupItem> <p style={{width: "17rem"}}> Latitude :  {this.state.locationResult.lat}</p> </ListGroupItem>
-                <ListGroupItem> <p style={{width: "17rem"}}> Longitude :  {this.state.locationResult.lon}</p> </ListGroupItem>
+                <ListGroupItem> <p> City Name : {this.state.searchQuery}</p> </ListGroupItem>
+                <ListGroupItem> <p> Latitude :  {this.state.weatherResult.lat}</p> </ListGroupItem>
+                <ListGroupItem> <p> Longitude :  {this.state.weatherResult.lon}</p> </ListGroupItem>
               </ListGroup>
 
             </Card>

@@ -10,9 +10,9 @@ class Weather extends Component{
 
                       <p> Weather Info </p>
 
-                      <p> Date : { this.props.weather.data } </p>
+                      <p> Date : { this.props.infoWeather.data } </p>
 
-                      <p> Description : { this.props.weather.description } </p>
+                      <p> Description : { this.props.infoWeather.description } </p>
 
                 </div>
         )
