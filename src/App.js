@@ -68,8 +68,6 @@ class App extends React.Component {
               return ( <Weather key = {x} infoWeather = {weather} /> )
               })}
 
-              {/* <Card.Img variant="top" src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&center=${this.state.locationResult.lat},${this.state.locationResult.lon}&zoom=10`} alt="city" /> */}
-
               <ListGroup className="list-group-flush">
                 {/* <ListGroupItem> {this.state.searchQuery} </ListGroupItem>
                 <ListGroupItem> {this.state.locationResult.lat} </ListGroupItem>
