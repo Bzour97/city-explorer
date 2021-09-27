@@ -46,7 +46,6 @@ class App extends React.Component {
       weatherResult: resultOfServer.data
     })
   }
-//
 
   render() {
     return (
