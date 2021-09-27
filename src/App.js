@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -63,13 +62,11 @@ class App extends React.Component {
         {this.state.showLocInfo &&
           <>
 
-            <Card style={{ width: '35rem' }}>
+            {/* <Card style={{ width: '35rem' }}> */}
 
             {this.state.weatherResult.weatherInfos.map((weather,x) => {
               return ( <Weather key = {x} infoWeather = {weather} /> )
               })}
-
-              {/* <Card.Img variant="top" src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&center=${this.state.locationResult.lat},${this.state.locationResult.lon}&zoom=10`} alt="city" /> */}
 
               <ListGroup className="list-group-flush">
                 {/* <ListGroupItem> {this.state.searchQuery} </ListGroupItem>
@@ -80,7 +77,7 @@ class App extends React.Component {
                 <ListGroupItem> <p> Longitude :  {this.state.weatherResult.lon}</p> </ListGroupItem>
               </ListGroup>
 
-            </Card>
+            {/* </Card> */}
           </>
           
         }
