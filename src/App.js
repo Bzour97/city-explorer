@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -62,7 +62,7 @@ class App extends React.Component {
         {this.state.showLocInfo &&
           <>
 
-            <Card style={{ width: '35rem' }}>
+            {/* <Card style={{ width: '35rem' }}> */}
 
             {this.state.weatherResult.weatherInfos.map((weather,x) => {
               return ( <Weather key = {x} infoWeather = {weather} /> )
@@ -77,7 +77,7 @@ class App extends React.Component {
                 <ListGroupItem> <p> Longitude :  {this.state.weatherResult.lon}</p> </ListGroupItem>
               </ListGroup>
 
-            </Card>
+            {/* </Card> */}
           </>
           
         }
